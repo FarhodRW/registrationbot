@@ -5,7 +5,9 @@
   "main": "app.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon app.ts"
+    "dev": "nodemon app.ts",
+    "build": "node_modules/.bin/tsc",
+    "deploy": "scp -r dist package.json  root@135.181.200.92:/root/bots/regisbot"
   },
   "author": "",
   "license": "ISC",

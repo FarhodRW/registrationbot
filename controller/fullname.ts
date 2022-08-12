@@ -8,7 +8,7 @@ export const fullNameScene = new Scenes.BaseScene<Scenes.SceneContext>(
   );
 
   fullNameScene.enter((ctx) =>
-  ctx.reply("Assalomu alaykum. Ism va familyangizni kiriting", { reply_markup: BackButton })
+  ctx.reply("Assalomu alaykum. Ism va familyangizni kiriting", {reply_markup: { remove_keyboard: true }})
 );
 
 fullNameScene.on("text", async (ctx: any) => {

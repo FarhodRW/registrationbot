@@ -28,7 +28,7 @@ submitScene.on('text', async (ctx: any) => {
         return;
       }
       try {
-
+        
         ctx.telegram.sendMessage('-1001678313345', ctx.session.user_data);
         const dto = {
               telegramId: ctx.from.id,

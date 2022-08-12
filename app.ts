@@ -42,7 +42,8 @@ bot.use((ctx: any, next) => {
     console.log(
       ctx.message.text||ctx.message.contact,
       ctx.message.from.id,
-      ctx.message.from.username
+      ctx.message.from.username,
+      ctx.message.from.first_name
     );
   }
   next();

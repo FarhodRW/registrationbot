@@ -7,7 +7,7 @@ export const manualInputScene  = new Scenes.BaseScene<Scenes.SceneContext>(
     SceneNames.MANUALINPUT
   );
 
-  manualInputScene.enter((ctx: any) => ctx.reply("Sanalarni 01/01/2022-02/02/2022 kabi kiriting: ", {reply_markup: BackButton}))
+  manualInputScene.enter((ctx: any) => ctx.reply("Sanalarni 2022/01/01-2022/02/02 kabi kiriting: ", {reply_markup: BackButton}))
 
 
   manualInputScene.on("text", async (ctx: any) => {
