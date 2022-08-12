@@ -52,9 +52,12 @@ To deploy this project run
 ## Features
 
 - Register user (fullname, number, course, days, times)
+- Save applications to the mongodb database
+- Sends applications to the telegram channel
 - Admin panel (for admins in bot)
 - Show registered users
 - Import to excel file(last 7 days, 30 days, input manual)
+
 
 
 ## Demo
