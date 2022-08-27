@@ -72,10 +72,8 @@ To deploy this project run
 - [@farhodrw](https://www.github.com/farhodrw)
 
 ## Screenshots
-
-![App Screenshot](/public/Screenshot%20from%202022-08-28%2002-16-18.png)
-![App Screenshot](/public/Screenshot%20from%202022-08-28%2002-16-26.png)
 ![App Screenshot](/public/Screenshot%20from%202022-08-28%2002-16-30.png)
+![App Screenshot](/public/Screenshot%20from%202022-08-28%2002-16-18.png)
 ![App Screenshot](/public/Screenshot%20from%202022-08-28%2002-16-59.png)
 ![App Screenshot](/public/Screenshot%20from%202022-08-28%2002-17-03.png)
 ![App Screenshot](/public/Screenshot%20from%202022-08-28%2002-17-11.png)
